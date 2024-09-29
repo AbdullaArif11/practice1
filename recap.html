@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    *{
+      margin: 10px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{ 
+      color: rgb(108, 108, 180);
+      /* visibility: hidden; */
+      display: inline-block;
+    }
+    #test{
+      color:aquamarine;
+      background-color: bisque;
+      font-weight: bold;
+      text-align: center;
+    }
+    .ctest{
+      color:aliceblue;
+      background-color: black;
+      text-decoration: overline;
+    }
+    input[type="password"]{
+      color:red;
+    }
+    input[type="email"]{
+      color: green;
+    }
+    .blog{
+      border: 7px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      margin: 20px;
+      padding: 10px;
+      text-align: justify;
+      box-shadow: 20px;
+    }
+    .css_tags{
+      /* for image */
+      height: 300px;
+      width: 300px;
+      background-repeat: no-repeat;
+      background-repeat: repeat-x;
+      background-repeat: repeat-y;
+      background-size: cover;
+      background-size: contain;
+      background-size: 555px;
+      /* set image to the background */
+      background-image: url('../localtion/file.type');
+      display: inline;
+      display: block;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="blog">
+    <h1>hello html</h1>
+    <small>small text</small>
+    <p>pragraph text</p>
+    <em>empesize text</em>
+    <h6>h6 text</h6>
+    <strong>strong text</strong><br><br>
+    <i>itelic text</i><br>
+    <span style="color: aqua;">span text for small css including</span>
+  </div>
+  
+
+  <div class="blog">
+    <ol>
+      order List
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+    </ol>
+    
+    <ul>
+      unorderd list
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+    </ul>
+  </div>
+
+   
+
+  <!-- lorem -->
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae asperiores deserunt illum in nihil nemo odit facilis iste quos modi? Distinctio vero non consectetur. Voluptatibus nihil nam molestias excepturi culpa!</p>
+
+  <img src="https://cdn-basic-content-api.picsart.io/p/d4c30bc7-902f-46d4-b8cf-a8f9edefb2f3.png?type=webp&r=320&to=min" alt="ofline image">
+
+
+  <div class="blog">
+    <h4>input</h4>
+    <input type="text" name="input" id=""><br>
+    <input type="password" name="password" id=""><br>
+    <input type="date"><br>
+    <input type="email" name="" id=""><br>
+    <input type="file"><br>
+    <select name="" id="">
+      <option value="tea">Tea</option>
+      <option value="coffe">Coffe</option>
+      <option value="greentea">Green Tea</option>
+      <option value="coldcoffe">Cold coffe</option>
+    </select><br>
+    <input type="submit">
+  </div>
+
+  <div class="blog">
+    <h3>creating a user login form</h3>
+    <input type="email" placeholder="your email" name="" id="">
+    <input type="password" placeholder="password"><br>
+    <input type="submit" value="Login">
+  </div>
+
+  <div id="test" class="blog">
+    <h3>use of id: </h3>
+    <p>declear: #id_name</p>
+    <p>call:  id="id_name"</p>
+  </div>
+
+  <div class="ctest blog" >
+    <h3>use of class</h3>
+    <p>declear: .class_name</p>
+    <p>call: class="class_name"</p>
+  </div>
+  
+</body>
+</html>
