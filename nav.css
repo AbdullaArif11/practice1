@@ -20,3 +20,24 @@ nav li a{
   text-decoration: none;
   color: rgb(89, 170, 229);
 }
+
+li{
+  list-style: none;
+}
+.nested{
+  display: none;
+  list-style: none;
+  background-color: rgb(62, 50, 35);
+  position: absolute;
+  padding-right: 30px;
+  border: 0.2px solid white;
+  border-radius: 10%;
+}
+
+li:hover .nested{
+  display: block;
+
+}
+li .nested li:hover{
+  background-color: rgb(107, 107, 146);
+}
