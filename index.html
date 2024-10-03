@@ -11,7 +11,9 @@
     }
   </style>
   <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <nav>
@@ -24,8 +26,8 @@
     </nav>
   </header>
 
-  <main style="height: 100vh;">
-    <h3>Main secton</h3>
+  <main style="height: 200vh;">
+    <h3 class="center">Audio and Video</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus labore aspernatur alias, distinctio iusto tempore minima consectetur aut doloremque ut amet deserunt in temporibus quisquam! Sequi ea maiores dolor dicta.</p>
     
     <!-- nested -->
@@ -39,6 +41,26 @@
         </ul>
      </li>
     </ul>
+
+    <!-- audio -->
+    <div>
+      <h4>Audio player</h4>
+      <audio controls src="media/Arabic_Inta.mp3">Arabic Inta Hayati</audio>
+      <br>
+      <audio controls src="media/Ertugrul.mp3">Ertugrul ringtone</audio>
+    </div>
+     
+
+    <!-- video -->
+    <div>
+      <h4>video player</h4>
+      <video controls src="media/video1.mp4" width="500px"></video>
+      <!-- from youtube using iframe -->
+      <iframe width="500" height="300" src="https://www.youtube.com/embed/8Are9dDbW24?si=r4ByF7JV6OLh2thA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+     
+
+
   </main>
 
   <footer style="text-align: center;"><small style="text-align: center;">&copy; All rights reserved</small></footer>
